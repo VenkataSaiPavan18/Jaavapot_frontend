@@ -1,0 +1,21 @@
+.btnnewb{
+    background-color: white;
+  
+    border: 0px ;
+    border-radius: 50px;
+    border-top: 3px solid red;
+   
+  }
+  
+  .spannews{
+   
+    font-weight: bolder;
+  }
+
+  .btnnewb{
+    width: 20%;
+    letter-spacing: 0.1px;
+    font-size: 8px;
+    padding: 2px;
+    font-weight: bold;
+  }

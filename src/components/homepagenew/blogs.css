@@ -1,0 +1,59 @@
+/* Add your other styles here */
+
+/* Define the hover effect */
+.scaleOnHover {
+    transform: scale(0.8);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+
+  .modalbg{
+    background-image: url("../../assets/img/background/background-02.png");
+   
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size:cover;
+}
+
+
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .blogimge1{
+    height: 400px;
+   object-fit:fill;
+   
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  .blogimge1{
+    height: 280px;
+    width: 80%;
+  }    
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+  .blogimge1{
+    height: 400px;
+    width: 70%;
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) {
+  .blogimge1{
+    height: 400px;
+    width: 70%;
+  } 
+}
+
+
+
+/* ModalStyles.css */
+
+/* Add styles for modal content */
+

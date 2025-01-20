@@ -1,0 +1,79 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .orderid{
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .timestamp{
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .seedetails{
+    font-size: 10px;
+  }
+  .orderfont{
+    font-size: 10px;
+  }
+}
+ 
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .orderid{
+        font-size: 12px;
+        font-weight: bold;
+      }     
+      .timestamp{
+        font-size: 12px;
+        font-weight: bold;
+      } 
+      .seedetails{
+        font-size: 10px;
+      } 
+      .orderfont{
+        font-size: 12px;
+      }
+}
+ 
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    .orderid{
+        font-size: 14px;
+        font-weight: bold;
+      }
+      .timestamp{
+        font-size: 14px;
+        font-weight: bold;
+      }
+      .seedetails{
+        font-size: 14px;
+      }
+      .ordercontainer{
+        width:80%;
+      }
+      .orderfont{
+        font-size: 14px;
+      }
+}
+ 
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) {
+    .orderid{
+        font-size: 14px;
+        font-weight: bold;
+      }  
+      .timestamp{
+        font-size: 14px;
+        font-weight: bold;
+      } 
+      .seedetails{
+        font-size: 14px;
+      }
+
+      .ordercontainer{
+        width:60%;
+      }
+      .orderfont{
+        font-size: 16px;
+      }
+}

@@ -1,0 +1,220 @@
+/* .content-container{
+    display: flex;
+    height: 100vh;
+    background-image: url('../../../assets/img/background/home-full-background-image.png');
+    background-size: cover;
+    background-position: center;
+  } */
+
+  
+
+  .appbg{
+    background-image: url('../../../assets/img/background/home-full-background-image.png');
+    background-size: cover;
+    background-position:center;
+  }
+  
+  .btn1{
+    background-color: white;
+  
+    border: 0px ;
+    border-radius: 50px;
+    border-top: 3px solid red;
+   
+  }
+  
+  .span1{
+   
+    font-weight: bolder;
+  }
+  
+  
+  .foodimg{
+    border: 2px solid red;
+  }
+  
+  
+  .imageMillet{
+    
+      /* width: 800;
+      height:  800; */
+      /* margin-top: 7em; */
+      margin-right: -30rem;
+      /* margin-bottom: 7em; */
+      /* padding: 2em; */
+      text-align: left;
+      position: relative;
+      background-image:  url('../../../assets/img/home/white-circle.png');
+      /* background-image:  url('../../../assets/img/home/image1.png'); */
+  
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: 215px center;
+      /* left: 20px; */
+  }
+  .home-image{
+  position: right;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .foodimg{
+      position: absolute;
+     
+    }
+    .appbg {
+      justify-content: flex-start; /* Adjust alignment for better mobile display */
+    }
+    .imageMillet {
+      display: none;
+    }
+  }
+  
+  
+  
+  /* ------------------------------------------ */
+  
+  /* Media Query for Mobile Devices */
+  @media (max-width: 480px) {
+    .foodimg{
+      width: 80px;
+      height: 80px;
+    }   
+    /* .circleposition{
+      height: 450px;
+      left: -30%;
+      top:17%;
+      width: 420px;
+      border-radius: 450px;
+    }   */
+    .content{
+      left: -1%;
+      top: 34%;
+      width: 17rem;
+      }
+      .btn1{
+        width: 22%;
+        letter-spacing: 0.2px;
+        font-size: 8px;
+        padding: 5px;
+      }
+  }
+  
+  /* Media Query for low resolution  Tablets, Ipads */
+  @media (min-width: 481px) and (max-width: 767px) {
+    .foodimg{
+      width: 95px;
+      height: 95px;
+    }  
+    /* .circleposition{
+      height: 445px;
+      left: -12%;
+      top:21%;
+      width: 380px;
+      border-radius: 450px;
+    }        */
+    .content{
+      left: -1%;
+      top: 35%;
+      width: 17rem;
+      padding-right: 2px;}
+      .btn1{
+        width: 25%;
+        letter-spacing: 0.2px;
+        font-size:8px;
+        padding: 5px;
+      }
+  }
+  
+  /* Media Query for Tablets Ipads portrait mode */
+  @media (min-width: 768px) and (max-width: 1024px){
+    .foodimg{
+      width: 115px;
+      height: 115px;
+    } 
+    /* .circleposition{
+      height: 420px;
+      left: -9%;
+      top:25%;
+      width: 430px;
+      border-radius: 450px;
+    }        */
+    .content{
+      left: -1%;
+      top: 36%;
+      width: 17rem;
+      padding-left: 1rem;}
+      .btn1{
+        width: 25%;
+        letter-spacing: 0.1px;
+        font-size: 8px;
+        padding: 2px;
+      }
+  }
+  
+  /* Media Query for Laptops and Desktops */
+  @media (min-width: 1025px) {
+      .foodimg{
+        width: 125px;
+        height: 125px;
+      } 
+      /* .circleposition{
+        height: 450px;
+        left: -5%;
+        top:29%;
+        width: 450px;
+        border-radius: 450px;
+        border:10px #fadbcf solid;
+      }         */
+  
+      .content{
+        left: -1%;
+        top: 37%;
+        width: 17rem;
+        padding-left: 1rem;
+        
+        /* background-color:black; */
+      }
+      .btn1{
+        width: 25%;
+        
+        font-size: 9px;
+        padding: 5px;
+      }
+  }
+  
+  .btn2 {
+    border: 2px black solid;
+    padding: 4px;
+    font-size: 15px;
+    transition: transform 0.5s ease-in-out; /* Apply a smooth transition effect */
+    animation: zoomInOut 2s infinite alternate; /* Use the zoomInOut animation with alternate looping */
+  }
+  
+  @keyframes zoomInOut {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+  
+  .zoom-animation {
+    font-size: 18px; /* Adjust the font size as needed */
+    font-family: 'Arial', sans-serif; /* Choose your preferred font-family */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflow characters */
+    padding-right: 8px; /* Adjust padding as needed */
+    animation: zoomInOut 3s infinite alternate;
+  }
+  
+  @keyframes zoomInOut {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.2);
+    }
+  }
+  
+    

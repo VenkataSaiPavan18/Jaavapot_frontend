@@ -1,0 +1,155 @@
+
+.btn4{
+    background-color: white;
+    width: 25%;
+    letter-spacing: 0.2px;
+    font-size: 8px;
+    padding: 5px;
+    border: 0px ;
+    border-radius: 50px;
+    border-top: 3px solid red;
+   
+  }
+  
+  .span1{
+    font-size: 12px;
+    font-weight: bolder;
+  }
+  
+  
+  .foodimg{
+    border: 2px solid red;
+  }
+  
+  .btn2{
+    border: 2px black solid;
+    
+  }
+
+  .carousel-container{
+    /* background-image: url('../../../assets/img/background/home-full-background-image.png'); */
+    /* background-image: url('../../assets/img/background/common-background.png');
+    background-size: contain;
+    background-position:center; */
+    background-color: aqua;
+  }
+
+  .menu-bg{
+    background-color: rgb(240, 240, 240);
+    padding: 2rem;
+  }
+
+  .painted-heading {
+    color: white;
+    background-color: orange;
+    background-image: linear-gradient(45deg, transparent 45%, rgba(255, 255, 255, 0.5) 45%, rgba(255, 255, 255, 0.5) 55%, transparent 55%);
+    background-size: 200% 200%;
+    background-position: 0 0;
+    position: absolute;
+    top: -60px;
+    left: 0; /* Add this to make sure it's positioned from the left edge */
+    width: 100%; /* Make sure it spans the full width */
+    text-align: center; /* Center the text */
+    /* Animation for the brushed effect */
+    animation: brushBackground 4s linear infinite;
+  }
+  
+  @keyframes brushBackground {
+    to {
+      background-position: 200% 200%;
+    }
+  }
+  
+
+  /* .painted-heading{
+    color: white; 
+      background-color: orange;
+  
+     
+      background-image: linear-gradient(90deg, transparent 0%, transparent 45%, rgba(255, 255, 255, 0.5) 45%, rgba(255, 255, 255, 0.5) 55%, transparent 55%, transparent 100%);
+  
+      
+      border-radius: 10px;
+  
+     
+      background-size: 200% 100%;
+      background-position: 100% 0;
+      
+    
+      animation: brushBackground 4s linear infinite;
+    } */
+
+  /* .painted-heading{
+    color: white;
+    background-color: orange; 
+
+    background-image: linear-gradient(45deg, transparent 45%, rgba(255, 255, 255, 0.5) 45%, rgba(255, 255, 255, 0.5) 55%, transparent 55%);
+
+ 
+    background-size: 200% 200%;
+    background-position: 0 0;
+    position:absolute;
+    top:-60;
+ 
+    animation: brushBackground 4s linear infinite;
+  } */
+
+  /* @keyframes brushBackground {
+    0% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: -100% 0;
+    }
+} */
+
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .alignmentitem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } 
+  .destyle{
+    text-align: center;
+  }
+
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  .alignmentitem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+         
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+  .alignmentitem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } 
+  
+ 
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) {
+    .alignmentitem{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      
+    }  
+   
+}
+

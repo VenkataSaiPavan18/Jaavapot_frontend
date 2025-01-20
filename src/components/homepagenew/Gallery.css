@@ -1,0 +1,133 @@
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .gal1 {
+    animation: slideInFromLeft 15s ease-out 4 ;
+    
+  }
+
+
+  /* ------------------- */
+  @keyframes slideInFromright {
+    0% {
+      transform: translateX(50%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .gal2 {
+    animation: slideInFromright 15s ease-out 4 ;
+  }
+
+
+
+  /* --------------------*/
+
+  @keyframes slideInFromtop {
+    0% {
+      transform: translateY(-50%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .gal3 {
+    animation: slideInFromtop 15s ease-out 4;
+  }
+
+   /* --------------------*/
+
+   @keyframes slideInFromtop2 {
+    0% {
+      transform: translateY(50%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .gal4 {
+    animation: slideInFromtop2 15s ease-out 4;
+  }
+
+  
+   /* --------------------*/
+
+   @keyframes slideInFromtop3 {
+    0% {
+      transform: translateY(-50%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .gal5 {
+    animation: slideInFromtop3 15s ease-out 4;
+  }
+
+  /* ---------------------------------zoominf effect------------------ */
+
+
+  @keyframes zoomInOut {
+    0% {
+      transform: scale(0.8);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(0.8);
+    }
+  }
+  
+  .gal11 {
+    animation: zoomInOut 4s infinite; /* Change 4s to the desired duration */
+    transform-origin: center;
+  }
+  
+
+
+  .gal21 {
+    transition: transform 0.3s ease; /* Adjust the duration and easing as needed */
+  }
+  
+  .gal21:hover {
+    transform: scale(1.2);
+  }
+
+  .gal31 {
+    transition: transform 0.3s ease; /* Adjust the duration and easing as needed */
+  }
+  
+  .gal31:hover {
+    transform: scale(1.2);
+  }
+  
+
+  .gal41 {
+    transition: transform 0.3s ease; /* Adjust the duration and easing as needed */
+  }
+  
+  .gal41:hover {
+    transform: scale(1.2);
+  }
+
+  .gal51 {
+    transition: transform 0.3s ease; /* Adjust the duration and easing as needed */
+  }
+  
+  .gal51:hover {
+    transform: scale(1.2);
+  }
+  
+  

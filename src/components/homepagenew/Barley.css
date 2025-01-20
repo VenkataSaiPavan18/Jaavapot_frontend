@@ -1,0 +1,105 @@
+/* Barley.css */
+
+.barley {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+  }
+  
+  .responsive-image1 {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .contentnew {
+    flex: 1;
+    padding: 20px;
+  }
+
+  /* TypingEffect.css */
+
+.typing-effect {
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .para {
+    font-weight: bold;
+    border-right: 2px solid #333; /* Add a blinking cursor */
+    padding-right: 5px; /* Add some spacing after the text */
+    display: inline-block;
+    animation: typing 1s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      /* border-color: #333; */
+    }
+  }
+  
+  
+
+
+  
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .raagicls{
+        /* height: 400px; */
+        /* object-fit: contain; */
+      }
+    
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+            
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    .raagicls{
+        height: 400px;
+        object-fit: contain;
+      }
+    
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) {
+    .raagicls{
+        height: 400px;
+        object-fit: contain;
+      }
+      
+}
+
+
+/* styles.css or your styled-components file */
+
+@keyframes slideInFromLeft8 {
+  0% {
+    transform: translateY(20%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.responsive-image1 {
+  animation: slideInFromLeft8 12s ease-out infinite;
+}

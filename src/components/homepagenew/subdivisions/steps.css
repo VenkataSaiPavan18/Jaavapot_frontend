@@ -1,0 +1,10 @@
+.stepbg{
+    background-image: url("https://png.pngtree.com/background/20210717/original/pngtree-abstract-light-orange-watercolor-background-picture-image_1445798.jpg");
+    background-position: center;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    text-align: center;
+    /* height: 100vh; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

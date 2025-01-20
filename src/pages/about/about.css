@@ -1,0 +1,77 @@
+/* .about-container{
+
+    background-image: url('../../assets/img/background/about-background-image.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-container{
+    padding-top: 8rem;
+
+    position: center;
+} */
+
+
+.about-container {
+    background-image: url('../../assets/img/background/about-background-image.png');
+    background-size: cover;
+    background-position: center;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .img-container {
+    position: relative;
+    /* overflow: hidden; */
+  }
+  
+  .about-card {
+    width: 30rem;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 50%; /* Vertically center the card within the container */
+    left: -20%; /* Move the card 20% to the left */
+    transform: translateY(-70%); /* Adjust to move the card up by 50% of its height */
+    z-index: 2; /* Place the card above the image */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add a shadow to the card */
+  }
+  
+  .image {
+    /* height:50rem;
+    width:50rem; */
+    position: relative;
+    z-index: 1; /* Place the image behind the card */
+    opacity: 0.6;
+  }
+  
+  .about-heading {
+    margin-top: -20px; /* Adjust this value to control the empty space above the heading */
+    text-align: center;
+    background-color: white;
+    display: inline-block;
+    padding: 0 15px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .about-heading::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px; /* Adjust this value to control the distance of the border bottom */
+    height: 10px; /* Adjust this value to control the thickness of the border bottom */
+    background-color: rgba(255, 99, 71, 0.5); /* Set the border color */
+    border-radius: 50%; /* Create a round border */
+  }
+
+  /* .about{
+    background-image: url('../../assets/img/background/background-02.png');
+    background-size: contain;
+    background-position:center;
+  } */

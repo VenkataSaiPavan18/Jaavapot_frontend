@@ -1,0 +1,187 @@
+/* Add the provided CSS styles here */
+
+.new-navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f5f5f5; /* Creamy white background */
+  color: gray; /* Gray text color */
+  font-weight: bold; /* Bold text */
+  font-size: 14px;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+
+}
+
+.new-logo img {
+  height: 50px;
+}
+
+.new-navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.new-navbar li {
+  margin-right: 20px;
+  position: relative;
+  font-size: 14;
+}
+
+.new-nav-link {
+  text-decoration: none;
+  color: gray;
+  transition: color 0.3s ease;
+  display: block;
+  padding: 10px;
+  border-bottom: 2px solid transparent; /* Transparent border bottom by default */
+  transition: color 0.3s ease, border-bottom 0.3s ease; /* Animation */
+}
+
+.new-navbar li:hover .new-nav-link,
+.new-navbar li.active .new-nav-link {
+  color: black; /* Black text on hover or select */
+  border-bottom: 2px solid #ffa500; /* Orange border bottom on hover or select */
+  transition: color 0.3s ease, border-bottom 0.3s ease; /* Animation */
+}
+
+.new-dropdown {
+  position: relative;
+}
+
+.new-dropdown ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f5f5f5; /* Creamy white background */
+  padding: 10px;
+  list-style: none;
+  z-index: 9; /* Ensure the submenu is above other elements */
+}
+
+.new-dropdown:hover ul {
+  display: block;
+}
+
+.new-dropdown ul li {
+  margin: 0;
+}
+
+.new-dropdown i {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.new-hamburger-menu {
+  display: none;
+}
+
+/* Your existing styles for mobile view */
+@media (max-width: 768px) {
+  .new-navbar ul {
+    /* Existing styles */
+
+    /* New styles for corrections */
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #f5f5f5; /* Creamy white background */
+    z-index: 9;
+  }
+  
+
+  .new-navbar.active ul {
+    display: flex;
+  }
+
+  .new-navbar li {
+    /* Existing styles */
+    margin: 0;
+    text-align: center;
+    position: relative;
+  }
+
+  .new-hamburger-menu {
+    /* Existing styles */
+    display: block;
+    cursor: pointer;
+  }
+  
+  .new-navbar li.new-dropdown ul,
+  .new-navbar li.new-dropdown ul.active {
+    display: none;
+    /* ... Other styles ... */
+  }
+
+  .new-navbar li.new-dropdown:hover ul,
+.new-navbar li.new-dropdown.active ul {
+  display: block;
+  position: absolute;
+  top: 100%; /* Adjust as needed */
+  left: 0; /* Open in the bottom side */
+}
+  
+}
+
+@media (max-width: 1015px) {
+  .new-navbar ul {
+    /* Existing styles */
+
+    /* New styles for corrections */
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #f5f5f5; /* Creamy white background */
+    z-index: 9;
+  }
+  
+
+  .new-navbar.active ul {
+    display: flex;
+  }
+
+  .new-navbar li {
+    /* Existing styles */
+    margin: 0;
+    text-align: center;
+    position: relative;
+  }
+
+  .new-hamburger-menu {
+    /* Existing styles */
+    display: block;
+    cursor: pointer;
+  }
+  
+  .new-navbar li.new-dropdown ul,
+  .new-navbar li.new-dropdown ul.active {
+    display: none;
+    /* ... Other styles ... */
+  }
+
+  .new-navbar li.new-dropdown:hover ul,
+.new-navbar li.new-dropdown.active ul {
+  display: block;
+  position: absolute;
+  top: 100%; /* Adjust as needed */
+  left: 0; /* Open in the bottom side */
+}
+  
+}
+
+/* Additional styles for the hamburger icon */
+.hamburger-icon {
+  font-size: 3rem; /* Adjust the font size as needed */
+  /* Add any other styles you want to apply */
+}

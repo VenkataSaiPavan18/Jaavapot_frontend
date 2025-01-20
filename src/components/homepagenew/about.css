@@ -1,0 +1,64 @@
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .howtop{
+    margin-right: 0%;
+  }
+  .howbtm{
+    margin-left: 0%;
+  }
+  .visintop{
+      margin-left: 0%;
+  }
+  .visinbtm{
+     margin-right: 0%;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .howtop{
+        margin-right: 5%;
+      }
+      .howbtm{
+        margin-left: 5%;
+      }
+      .visintop{
+          margin-left: 5%;
+      }
+      .visinbtm{
+         margin-right: 5%;
+      }     
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    .howtop{
+        margin-right: 5%;
+      }
+      .howbtm{
+        margin-left: 5%;
+      }
+      .visintop{
+          margin-left: 5%;
+      }
+      .visinbtm{
+         margin-right: 5%;
+      }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) {
+    .howtop{
+        margin-right: 5%;
+      }
+      .howbtm{
+        margin-left: 5%;
+      }
+      .visintop{
+          margin-left: 5%;
+      }
+      .visinbtm{
+         margin-right: 5%;
+      }
+}

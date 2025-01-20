@@ -1,0 +1,160 @@
+.newbkg{
+    background-image: url(../../assets/img/background/home-full-background-image.png);
+    height: auto;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Add this to your homepage.css or create a new CSS file */
+.btn-order-now,
+.btn-watch-video {
+  margin-top: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-order-now:hover,
+.btn-watch-video:hover {
+  transform: scale(1.1);
+}
+
+/* Additional styles as needed */
+.imgslides1{
+ 
+ background-color: rgb(0, 0, 0) ;
+
+  border-radius: 350px;
+ 
+  box-shadow: 0px 2px 2px 2px #f5683d;
+  
+}
+
+.top-div{
+  box-shadow: 2px 2px 2px 2px rgb(11, 13, 14);
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+
+
+.btnnew1{
+  background-color: white;
+  width: 25%;
+  border: 0px ;
+  border-radius: 50px;
+  border-top: 3px solid red;
+  font-size:7px;
+ height: 34px;
+  
+ 
+}
+
+.spannew1{
+ 
+  font-weight: bolder;
+}
+
+
+.slideshow-container {
+  position: relative;
+  text-align: center;
+}
+
+.imgslides {
+  object-fit: contain;
+}
+
+.central-image {
+  height: 300px;
+  width: 300px;
+  padding: 15px;
+}
+
+.food-items-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.food-item {
+  object-fit: contain;
+  height: 80px; /* Adjust the height of the food items as needed */
+  width: 80px; /* Adjust the width of the food items as needed */
+  background-color: #f5683d;
+  border-radius: 150px;
+}
+
+
+/* Add this to your homepage.css or create a new CSS file */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 80%;
+  max-height: 80%;
+  overflow: auto;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #333;
+}
+
+.rightbgnew{
+  background-image: url("../../assets/img/home/image12.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-left: auto;
+padding-right: auto;
+}
+
+@media screen and (max-width:500px) {
+ .rightinsidebox{
+ 
+ }
+}
+
+
+@media screen and (min-width:500px) {
+  .rightinsidebox{
+   width: 80%;
+   /* height: 300px; */
+  }
+ }
+
+
+ .menubeftbg{
+  background-image: url("https://static.vecteezy.com/system/resources/previews/008/129/976/large_2x/light-orange-colored-crumpled-paper-texture-background-for-design-decorative-free-photo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(to bottom, #fcd4b1,#fadbc0,#fcb97e,#faab66);
+  
+ }

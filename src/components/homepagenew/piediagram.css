@@ -1,0 +1,31 @@
+/* NutritionalBenefits.css */
+
+.nutritional-benefits-container {
+    max-width: 600px;
+   
+    margin:auto;
+    padding: 20px;
+    background-color:rgba(189, 152, 109,0.3) ;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px ;
+  }
+  
+  .nutrient {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .nutrient h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .nutrient p {
+    margin: 0;
+    font-size: 16px;
+    color: #666;
+  }
+  

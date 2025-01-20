@@ -1,0 +1,44 @@
+.containernew {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: rgba(189, 152, 109, 0.5);
+    overflow: hidden; /* Hide overflow to prevent  horizontal scrollbar */
+    box-shadow: 2px 2px 2px 2px black;
+  }
+  
+  .containernew > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin: 10px;
+    animation: moveRightToLeft 50s linear infinite; /* Adjust the duration as needed */
+  }
+  
+ 
+  @keyframes moveRightToLeft {
+    0% {
+      transform: translateX(100%); /* Start from the right */
+    }
+    25% {
+      transform: translateX(0); /* Move to the left */
+    }
+    50% {
+      transform: translateX(-100%); /* Move to the left */
+    }
+    75% {
+      transform: translateX(-200%); /* Move to the left */
+    }
+    100% {
+      transform: translateX(-300%); /* Move to the left */
+    }
+  }
+  
+
+
+  
